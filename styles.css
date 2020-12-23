@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+
+body {
+    font-family: 'UnifrakturMaguntia', cursive;
+    color: #1F2937;
+    margin: 0;
+}
+
+:root {
+    --primary: #EF4444;
+    --grey: #1F2937;
+    --width-break: 600px;
+}
+
+/* nav */
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+/* main */
+main {
+    margin: auto;
+    padding: 1rem;
+    max-width: var(--width-break);
+    
+}
+
+/* textarea */
+textarea {
+    box-sizing: border-box;
+    display: block;
+    margin-top: 2rem;
+    padding: 1rem 0rem;
+    width: 100%;
+    max-width: var(--width-break);
+    min-height: 20vh;
+    font-size: large;
+    font-family: inherit;
+}
+
+/* button */
+#btn-translate {
+    background-color: var(--primary);
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-size: large;
+    border: none;
+
+}
+
+/* output */
+#output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--grey);
+
+}
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: var(--primary);
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: large;
+    max-width: var(--width-break);
+    margin: auto;
+}
