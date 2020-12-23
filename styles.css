@@ -47,11 +47,12 @@ textarea {
     padding: 1rem 2rem;
     font-size: large;
     border: none;
+    font-family: inherit;
 
 }
 
 /* output */
-#output {
+#output-txt {
     box-sizing: border-box;
     width: 100%;
     min-height: 10vh;
