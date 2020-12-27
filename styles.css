@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
 
 body {
-    font-family: 'UnifrakturMaguntia', cursive;
+    font-family: 'Langar', cursive;
     color: #1F2937;
     margin: 0;
 }
