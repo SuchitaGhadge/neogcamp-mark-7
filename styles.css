@@ -74,7 +74,7 @@ footer {
 }
 
 footer p {
-    font-size: large;
+    
     max-width: var(--width-break);
     margin: auto;
 }
