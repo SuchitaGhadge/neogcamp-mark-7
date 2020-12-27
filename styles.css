@@ -65,7 +65,7 @@ textarea {
 
 /* footer */
 footer {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     background-color: var(--primary);
     width: 100%;
