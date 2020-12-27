@@ -65,11 +65,11 @@ textarea {
 
 /* footer */
 footer {
-    /* position: absolute; */
+    position: fixed;
     bottom: 0;
     background-color: var(--primary);
     width: 100%;
-    padding: 10px 10px 0px 10px;
+    padding: 1rem
     text-align: center;
 }
 

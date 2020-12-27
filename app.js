@@ -30,6 +30,3 @@ function clickHandler(){
 }
 
 btnTranslate.addEventListener("click", clickHandler);
-
-// footer position
-document.getElementById("footer").style.position="fixed";
